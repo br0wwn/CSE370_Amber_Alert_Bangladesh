@@ -1,0 +1,74 @@
+/* Styles for login and signup pages with Red, White, and Navy Blue theme */
+
+body.auth-theme {
+    background-color: #001f3f; /* Navy Blue background */
+    color: black;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-container {
+    background-color: #ffffff; /* White container */
+    padding: 2rem;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    color: #001f3f; /* Navy Blue text */
+}
+
+.auth-container h2 {
+    color: #b22222; /* Red heading */
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.auth-container label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.auth-container input[type="text"],
+.auth-container input[type="email"],
+.auth-container input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #001f3f;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.auth-container button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #b22222; /* Red button */
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.auth-container button:hover {
+    background-color: #7a1616; /* Darker red on hover */
+}
+
+.auth-container .link {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.auth-container .link a {
+    color: #001f3f; /* Navy Blue links */
+    text-decoration: none;
+}
+
+.auth-container .link a:hover {
+    text-decoration: underline;
+}

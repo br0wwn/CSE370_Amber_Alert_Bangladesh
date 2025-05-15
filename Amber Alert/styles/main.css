@@ -1,0 +1,96 @@
+.user-theme .navbar {
+    background-color: #6B0202; 
+}
+.user-theme .navbar-brand,
+.user-theme .nav-link,
+.user-theme .nav-link:hover,
+.user-theme .active {
+    color: rgb(0, 0, 0) !important;
+}
+.user-theme .nav-link {
+    color: rgba(255,255,255,.75) !important;
+}
+.user-theme .nav-link:hover {
+    color: rgb(156, 103, 103) !important;
+}
+.user-theme .active {
+    font-weight: bold;
+}
+
+.police-theme .navbar {
+    background-color: #343a40; /* Navy blue */
+}
+.police-theme .navbar-brand,
+.police-theme .nav-link,
+.police-theme .nav-link:hover,
+.police-theme .active {
+    color: white !important;
+}
+.police-theme .nav-link {
+    color: rgba(255,255,255,.75) !important;
+}
+.police-theme .nav-link:hover {
+    color: white !important;
+}
+.police-theme .active {
+    font-weight: bold;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Button colors for user theme */
+.user-theme .btn-primary {
+    background-color: #800000;
+    border-color: #800000;
+}
+.user-theme .btn-primary:hover {
+    background-color: #660000;
+    border-color: #660000;
+}
+.user-theme .btn-danger {
+    background-color: #b22222;
+    border-color: #b22222;
+}
+.user-theme .btn-danger:hover {
+    background-color: #8b1a1a;
+    border-color: #8b1a1a;
+}
+.user-theme .btn-success {
+    background-color: #228b22;
+    border-color: #228b22;
+}
+.user-theme .btn-success:hover {
+    background-color: #1c6b1c;
+    border-color: #1c6b1c;
+}
+
+/* Button colors for police theme */
+.police-theme .btn-primary {
+    background-color: #343a40;
+    border-color: #343a40;
+}
+.police-theme .btn-primary:hover {
+    background-color: #23272b;
+    border-color: #23272b;
+}
+.police-theme .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.police-theme .btn-danger:hover {
+    background-color: #bd2130;
+    border-color: #bd2130;
+}
+.police-theme .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.police-theme .btn-success:hover {
+    background-color: #1e7e34;
+    border-color: #1e7e34;
+}
